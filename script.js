@@ -1,5 +1,11 @@
 const burgerMenu = document.querySelector(".burger-menu");
 const mobileNavigation = document.querySelector(".navigation-mobile");
+let shoes = [
+  {
+    name: "Cloud L1",
+  },
+];
+
 let isNavVisble = false;
 burgerMenu.addEventListener("click", () => {
   if (isNavVisble == false) {
