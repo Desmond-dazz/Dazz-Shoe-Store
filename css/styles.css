@@ -261,6 +261,12 @@ header {
   background-color: var(--dark-black);
   color: var(--tertiary-color);
   transform: translateY(5.4375rem);
+  transition: all 0.3s linear;
+}
+
+.hero-content .hero-left button:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
 }
 
 .hero-content .hero-right {
@@ -408,7 +414,7 @@ header {
 @media (max-width: 425px) {
   /* Header */
   header {
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
 
   .header-flex .navigation-mobile li {
@@ -419,23 +425,23 @@ header {
   }
 
   .cart-icon {
-    right: 5rem;
+    right: 3rem;
   }
 
   /* Hero */
   .hero-content .hero-left {
-    width: 23.5rem;
+    width: 86%;
     height: 14.25rem;
     top: 14.9375rem;
     border-top-right-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     padding-top: 0.625rem;
     max-width: 39.9375rem;
   }
 
   .hero-content .hero-left h1 {
-    max-width: 30.625rem;
+    max-width: 17.625rem;
     font-size: 2.5rem;
     font-weight: normal;
     margin-bottom: 0.875rem;
