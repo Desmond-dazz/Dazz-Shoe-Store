@@ -49,7 +49,7 @@ header {
 
 .header-flex .logo {
   font-size: 1.25rem;
-  color: var(--dark-black);
+  color: var(--tertiary-color);
 }
 
 /* Desktop navigation */
@@ -62,11 +62,13 @@ header {
   position: relative;
   transition: all 0.3s linear;
   padding: 0.5rem 1rem;
+  color: var(--tertiary-color);
 }
 
 .header-flex .navigation-desktop .fa-cart-shopping {
   font-size: 1.3rem;
   transition: all 0.2s linear;
+  color: var(--tertiary-color);
 }
 
 .header-flex .navigation-desktop .fa-cart-shopping:hover {
@@ -342,6 +344,7 @@ header {
   /* Header */
   .header-flex .burger-menu {
     display: block;
+    color: var(--tertiary-color);
   }
 
   .header-flex .navigation-desktop {
@@ -352,7 +355,7 @@ header {
     display: block;
     position: absolute;
     right: 6rem;
-    color: var(--dark-black);
+    color: var(--tertiary-color);
     list-style: none;
     transform: translateX();
   }
