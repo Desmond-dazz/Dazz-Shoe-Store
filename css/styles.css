@@ -360,7 +360,6 @@ header {
   margin: 0 auto;
   padding-left: var(--padding-large);
   padding-right: var(--padding-large);
-  padding-bottom: 7.6875rem;
 }
 
 .best-sellers-items {
@@ -879,7 +878,6 @@ header {
   .best-sellers {
     padding-left: var(--padding-mobile-Large);
     padding-right: var(--padding-mobile-Large);
-    padding-bottom: 2rem;
   }
 
   .best-sellers-items {
