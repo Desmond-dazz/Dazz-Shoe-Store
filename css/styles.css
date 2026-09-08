@@ -49,6 +49,7 @@ header {
 
 .header-flex .logo {
   font-size: 1.25rem;
+  color: var(--dark-black);
 }
 
 /* Desktop navigation */
@@ -421,7 +422,7 @@ header {
   /* Hero */
   .hero-content .hero-left {
     width: 23.5rem;
-    height: 13.25rem;
+    height: 14.25rem;
     top: 14.9375rem;
     border-top-right-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
