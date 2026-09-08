@@ -12,6 +12,7 @@
   --laptop-large: 1440px;
   --padding-large: 7.5rem;
   --padding-tablet: 4rem;
+  --padding-mobile-Large: 1rem;
 }
 
 body {
@@ -563,6 +564,38 @@ header {
     width: 1.3125rem;
     height: 13.1875rem;
     border-radius: 1.875rem;
+  }
+
+  /* Features section */
+  .features {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
+  }
+  .features-heading {
+    font-size: 2rem;
+    height: 4.6875rem;
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
+  }
+
+  .features-items {
+    display: flex;
+    padding-top: 3.1875rem;
+    gap: 3.125rem;
+  }
+
+  .features-items i {
+    font-size: 3.9375rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .features-item {
+    flex: 1;
+    max-width: 17.125rem;
+  }
+
+  .features-item h4 {
+    margin-bottom: 0.75rem;
   }
 }
 
