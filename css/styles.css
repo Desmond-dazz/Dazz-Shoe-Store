@@ -431,7 +431,7 @@ header {
   /* Hero */
   .hero-content .hero-left {
     width: 86%;
-    height: 14.25rem;
+    height: 8.25rem;
     top: 14.9375rem;
     border-top-right-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
@@ -448,7 +448,8 @@ header {
   }
 
   .hero-content .hero-left p {
-    max-width: 17.3125rem;
+    /* max-width: 17.3125rem; */
+    display: none;
   }
 
   .hero-content .hero-left button {
