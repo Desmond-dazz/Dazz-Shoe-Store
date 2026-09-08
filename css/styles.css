@@ -463,6 +463,73 @@ header {
   color: var(--rating-color);
 }
 
+/* Footer */
+footer {
+  margin: 0 auto;
+  max-width: var(--laptop-large);
+  padding-left: var(--padding-large);
+  padding-right: var(--padding-large);
+  background-color: var(--primary-color);
+  height: 400px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  align-items: start;
+  height: 100%;
+  gap: 2rem;
+}
+
+.footer-flex h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.footer-flex .logo {
+  font-size: 3.125rem;
+  background-color: var(--tertiary-color);
+  color: var(--dark-black);
+  transform: translate(-120px, 70px);
+  padding-left: var(--padding-large);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  flex: 1;
+}
+
+.footer-flex .middle-section {
+  flex: 1;
+  transform: translateX(-80px);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-flex .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-flex .follow-us {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-flex .right-section {
+  flex: 1;
+  transform: translateX(-45px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 /* Modal */
 .modal {
   position: absolute;
@@ -637,6 +704,21 @@ header {
     padding-left: var(--padding-tablet);
     padding-right: var(--padding-tablet);
   }
+
+  /* Footer Section */
+  /* Footer */
+  footer {
+    margin: 0 auto;
+    max-width: var(--laptop-large);
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+    background-color: var(--primary-color);
+    height: 400px;
+  }
+
+  .footer-flex {
+    gap: 1rem;
+  }
 }
 
 /*  Tablet  query*/
@@ -774,6 +856,47 @@ header {
   .reviews .reviews-item {
     padding-bottom: 7rem;
   }
+
+  /* Footer Section */
+  footer {
+    margin: 0 auto;
+    max-width: var(--laptop-large);
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+    background-color: var(--primary-color);
+    height: max-content;
+  }
+
+  .footer-flex {
+    gap: 1.5rem;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .footer-flex .logo {
+    font-size: 3rem;
+    padding-left: var(--padding-tablet);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    transform: translate(-65px, -16px);
+    width: 100%;
+  }
+
+  .footer-flex .middle-section {
+    gap: 1rem;
+    transform: translateX(-2px);
+  }
+
+  .footer-flex .right-section {
+    transform: translateX(-2px);
+  }
+
+  .footer-flex .follow-us {
+    margin-bottom: 1rem;
+  }
 }
 
 /*  Mobile Large */
@@ -898,6 +1021,20 @@ header {
   .reviews .reviews-items {
     flex-direction: column;
   }
+
+  /* Footer section */
+  footer {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
+  }
+
+  .footer-flex .logo {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
 }
 
 /*  Mobile Meduim */
@@ -917,6 +1054,15 @@ header {
 
   .cart-icon {
     right: 2.7rem;
+  }
+
+  /* Footer Section */
+  .footer-flex .logo {
+    font-size: 2.5rem;
+    padding-left: var(--padding-mobile-Large);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transform: translate(-16px, -16px);
   }
 }
 
@@ -942,5 +1088,15 @@ header {
   /* Reviews */
   .reviews .reviews-item .top {
     width: 97%;
+  }
+
+  /* Footer Section */
+  .footer-flex .logo {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    transform: translate(-16px, -16px);
   }
 }
