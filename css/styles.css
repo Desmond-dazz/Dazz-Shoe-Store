@@ -10,6 +10,8 @@
   --tertiary-color: #e6e6e8c7;
   --dark-black: black;
   --laptop-large: 1440px;
+  --padding-large: 7.5rem;
+  --padding-tablet: 4rem;
 }
 
 body {
@@ -295,9 +297,50 @@ header {
   border-radius: 1.875rem;
 }
 
-/* Media Queries */
+/* Features section */
+.features {
+  max-width: var(--laptop-large);
+  margin: 0 auto;
+  background-color: var(--dark-black);
+  color: var(--tertiary-color);
+  height: ma.3125rem;
+  padding-left: var(--padding-large);
+  padding-right: var(--padding-large);
+  padding-bottom: 3.1875rem;
+}
 
-/* Laptop large */
+.features-heading {
+  margin: 0 auto;
+  background-color: var(--tertiary-color);
+  height: 7.6875rem;
+  max-width: var(--laptop-large);
+  padding-left: var(--padding-large);
+  padding-right: var(--padding-large);
+  font-size: 3rem;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.features-items {
+  display: flex;
+  padding-top: 3.1875rem;
+  gap: 8.125rem;
+}
+
+.features-items i {
+  font-size: 3.9375rem;
+  margin-bottom: 1.25rem;
+}
+
+.features-item {
+  flex: 1;
+}
+
+.features-item h4 {
+  margin-bottom: 0.75rem;
+}
+/* Media Queries */
 
 /* Laptop */
 @media (max-width: 1024px) {
@@ -407,6 +450,53 @@ header {
     width: 2.3125rem;
     height: 16.1875rem;
     border-radius: 1.875rem;
+  }
+
+  /* Features section */
+  .features {
+    max-width: var(--laptop-large);
+    margin: 0 auto;
+    background-color: var(--dark-black);
+    color: var(--tertiary-color);
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+  }
+
+  .features-heading {
+    margin: 0 auto;
+    background-color: var(--tertiary-color);
+    height: 7.6875rem;
+    max-width: var(--laptop-large);
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+    font-size: 3rem;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .features-items {
+    display: flex;
+    padding-top: 3.1875rem;
+    gap: 2.125rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .features-items i {
+    font-size: 3.9375rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .features-item {
+    flex: 1;
+    max-width: 17.125rem;
+  }
+
+  .features-item h4 {
+    margin-bottom: 0.75rem;
   }
 }
 
