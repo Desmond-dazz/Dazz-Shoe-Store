@@ -13,6 +13,7 @@
   --padding-large: 7.5rem;
   --padding-tablet: 4rem;
   --padding-mobile-Large: 1rem;
+  --rating-color: #bd7501;
 }
 
 body {
@@ -318,7 +319,7 @@ header {
   padding-bottom: 3.1875rem;
 }
 
-.features-heading {
+.section-heading {
   margin: 0 auto;
   background-color: var(--tertiary-color);
   height: 7.6875rem;
@@ -348,6 +349,50 @@ header {
 
 .features-item h4 {
   margin-bottom: 0.75rem;
+}
+
+/* Best Sellers section */
+.best-sellers {
+  max-height: max-content;
+  background-color: var(--tertiary-color);
+  max-width: var(--laptop-large);
+  margin: 0 auto;
+  padding-left: var(--padding-large);
+  padding-right: var(--padding-large);
+  padding-bottom: 7.6875rem;
+}
+
+.best-sellers-items {
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+  gap: 1rem;
+}
+
+.best-sellers-item {
+  background-color: var(--dark-black);
+  color: var(--tertiary-color);
+  height: 28.25rem;
+  flex: 1;
+  height: max-content;
+  padding-bottom: 2rem;
+}
+
+.best-sellers-item img {
+  width: 21.5625rem;
+  height: 12.875rem;
+}
+
+.best-sellers-item .rating {
+  color: var(--rating-color);
+}
+
+.best-sellers-item .description {
+  background-color: var(--dark-black);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 2rem;
 }
 /* Media Queries */
 
@@ -472,7 +517,7 @@ header {
     padding-right: var(--padding-tablet);
   }
 
-  .features-heading {
+  .section-heading {
     margin: 0 auto;
     background-color: var(--tertiary-color);
     height: 7.6875rem;
@@ -507,6 +552,17 @@ header {
 
   .features-item h4 {
     margin-bottom: 0.75rem;
+  }
+
+  /* Best Sellers Section */
+  .best-sellers {
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+  }
+
+  .best-sellers-item img {
+    width: 21.5625rem;
+    height: 8.875rem;
   }
 }
 
@@ -581,7 +637,7 @@ header {
     padding-left: var(--padding-mobile-Large);
     padding-right: var(--padding-mobile-Large);
   }
-  .features-heading {
+  .section-heading {
     font-size: 2rem;
     height: 4.6875rem;
     padding-left: var(--padding-mobile-Large);
@@ -606,6 +662,22 @@ header {
 
   .features-item h4 {
     margin-bottom: 0.75rem;
+  }
+
+  /* Best Sellers Section */
+  .best-sellers {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
+    padding-bottom: 2rem;
+  }
+
+  .best-sellers-items {
+    flex-direction: column;
+  }
+
+  .best-sellers-item img {
+    width: 21.5625rem;
+    height: 11.875rem;
   }
 }
 
