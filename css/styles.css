@@ -17,6 +17,7 @@
 
 body {
   background-color: var(--secondary-color);
+  padding-top: 4.375rem;
 }
 
 a {
@@ -35,19 +36,22 @@ img {
 /* Header */
 header {
   margin: 0 auto;
-  background-color: var(--primary-color);
-  max-width: var(--laptop-large);
-  padding: 0 7.5rem;
-  position: relative;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
 }
 
 .header-flex {
-  width: 100%;
+  max-width: var(--laptop-large);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 4.375rem;
+  padding-left: var(--padding-large);
+  padding-right: var(--padding-large);
+  background-color: var(--primary-color);
 }
 
 .header-flex .logo {
@@ -55,6 +59,10 @@ header {
   color: var(--tertiary-color);
 }
 
+.header-flex .logo span {
+  color: var(--dark-black);
+  font-weight: bold;
+}
 /* Desktop navigation */
 .header-flex .navigation-desktop {
   display: flex;
@@ -346,8 +354,9 @@ header {
 /* Laptop */
 @media (max-width: 1024px) {
   /* Heeader */
-  header {
-    padding: 0 4rem;
+  .header-flex {
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
   }
 
   /* Hero */
@@ -417,7 +426,7 @@ header {
     top: 17.9375rem;
     border-top-right-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
-    padding-left: 4rem;
+    padding-left: var(--padding-tablet);
     padding-top: 1.625rem;
     max-width: 39.9375rem;
   }
@@ -504,8 +513,9 @@ header {
 /*  Mobile Large */
 @media (max-width: 425px) {
   /* Header */
-  header {
-    padding: 0 1rem;
+  .header-flex {
+    padding-right: var(--padding-mobile-Large);
+    padding-left: var(--padding-mobile-Large);
   }
 
   .header-flex .navigation-mobile li {
@@ -602,8 +612,9 @@ header {
 /*  Mobile Meduim */
 @media (max-width: 375px) {
   /* Header */
-  header {
-    padding: 0 2rem;
+  .header-flex {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
   }
 
   .header-flex .navigation-mobile li {
@@ -614,15 +625,16 @@ header {
   }
 
   .cart-icon {
-    right: 4.5rem;
+    right: 2.7rem;
   }
 }
 
 /*  Mobile Small */
 @media (max-width: 320px) {
   /* Header */
-  header {
-    padding: 0 2rem;
+  .header-flex {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
   }
 
   .header-flex .navigation-mobile li {
@@ -633,6 +645,6 @@ header {
   }
 
   .cart-icon {
-    right: 4rem;
+    right: 2.7rem;
   }
 }
