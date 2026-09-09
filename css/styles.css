@@ -605,6 +605,9 @@ footer {
   gap: 2rem;
   flex: 1;
 }
+.contact-us .left div {
+  border-bottom: 1px solid var(--dark-black);
+}
 .contact-us-flex .left h4 {
   margin-bottom: 0.4rem;
 }
@@ -1255,6 +1258,7 @@ footer {
   .contact-us-flex .left {
     gap: 1rem;
     padding-right: var(--padding-mobile-Large);
+    text-align: center;
   }
 
   .contact-us-flex .right {
