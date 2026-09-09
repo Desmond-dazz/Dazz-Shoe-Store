@@ -1109,6 +1109,14 @@ footer {
 
   .shop-flex {
     grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+  }
+
+  .shop-flex .shop-item {
+    height: 200px;
+  }
+  .shop-flex .shop-item img {
+    transform: translateY(2rem);
   }
 
   .shop-flex .shop-item .caption {
@@ -1155,6 +1163,13 @@ footer {
   .shop {
     padding-left: var(--padding-mobile-Large);
     padding-right: var(--padding-mobile-Large);
+  }
+
+  .shop-flex .shop-item {
+    height: 300px;
+  }
+  .shop-flex .shop-item img {
+    transform: translateY(0rem);
   }
 
   .shop-flex {
