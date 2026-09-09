@@ -372,17 +372,21 @@ header {
 }
 
 .best-sellers-item {
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   color: var(--tertiary-color);
   height: 28.25rem;
   flex: 1;
   height: max-content;
   padding-bottom: 2rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
 }
 
 .best-sellers-item img {
   width: 21.5625rem;
   height: 12.875rem;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
 }
 
 .best-sellers-item .rating {
@@ -390,7 +394,6 @@ header {
 }
 
 .best-sellers-item .description {
-  background-color: var(--dark-black);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -605,6 +608,8 @@ footer {
   justify-content: center;
   align-items: center;
   height: 300px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
 }
 .shop-grid .shop-item img {
   max-width: 21.5625rem;
