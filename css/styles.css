@@ -1279,6 +1279,8 @@ footer {
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 1rem;
+    align-items: center;
+    text-align: center;
   }
 
   .contact-us-flex .right .form-group {
