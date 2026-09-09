@@ -1122,6 +1122,10 @@ footer {
   .shop-flex .shop-item .caption {
     width: 80%;
     top: 1rem;
+    font-size: 0.7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    gap: 0.2rem;
   }
 
   /* Footer section */
@@ -1179,6 +1183,7 @@ footer {
   .shop-flex .shop-item .caption {
     width: 50%;
     top: 1rem;
+    font-size: 1rem;
   }
 
   /* Footer Section */
