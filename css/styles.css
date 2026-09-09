@@ -1081,10 +1081,22 @@ footer {
   .footer-flex .middle-section {
     gap: 1rem;
     transform: translateX(-2px);
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-flex .middle-section .contact,
+  .footer-flex .middle-section .follow-us {
+    border-bottom: 1px solid black;
+    padding-bottom: 0.3rem;
   }
 
   .footer-flex .right-section {
     transform: translateX(-2px);
+    border-bottom: 1px solid black;
+    padding-bottom: 0.3rem;
+    width: 100%;
+    text-align: center;
   }
 
   .footer-flex .follow-us {
