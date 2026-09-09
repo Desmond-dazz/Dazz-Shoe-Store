@@ -372,7 +372,7 @@ header {
 }
 
 .best-sellers-item {
-  background-color: var(--dark-black);
+  background-color: var(--tertiary-color);
   color: var(--tertiary-color);
   height: 28.25rem;
   flex: 1;
