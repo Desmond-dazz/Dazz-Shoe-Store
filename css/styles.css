@@ -35,6 +35,8 @@ img {
   max-width: 100%;
 }
 
+/* Home Page */
+
 /* Header */
 header {
   margin: 0 auto;
@@ -530,6 +532,57 @@ footer {
   gap: 0.5rem;
 }
 
+/* Shop Page */
+/* Shop section */
+.shop {
+  margin: 0 auto;
+  max-width: var(--laptop-large);
+  background-color: var(--tertiary-color);
+  padding-left: var(--padding-large);
+  padding-right: var(--padding-large);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.shop-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.shop-flex .shop-item {
+  background-color: var(--dark-black);
+  color: var(--tertiary-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.shop-flex .shop-item img {
+  max-width: 21.5625rem;
+  max-height: 21.5625rem;
+  width: 100%;
+}
+.shop-flex .shop-item .caption {
+  border-top: 1px solid var(--tertiary-color);
+  border-right: 1px solid var(--tertiary-color);
+  border-bottom: 1px solid var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 50%;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+}
+
 /* Modal */
 .modal {
   position: absolute;
@@ -636,7 +689,7 @@ footer {
 
 /* Media Queries */
 
-/* Laptop */
+/* Laptop query */
 @media (max-width: 1024px) {
   /* Heeader */
   .header-flex {
@@ -701,6 +754,13 @@ footer {
 
   /* Reviews */
   .reviews {
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+  }
+
+  /* Shop */
+
+  .shop {
     padding-left: var(--padding-tablet);
     padding-right: var(--padding-tablet);
   }
@@ -857,6 +917,25 @@ footer {
     padding-bottom: 7rem;
   }
 
+  /* Shop */
+  .shop {
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+  }
+
+  .shop-flex {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shop-flex .shop-item {
+    height: 300px;
+  }
+
+  .shop-flex .shop-item .caption {
+    top: 2rem;
+    width: 50%;
+  }
+
   /* Footer Section */
   footer {
     margin: 0 auto;
@@ -899,7 +978,7 @@ footer {
   }
 }
 
-/*  Mobile Large */
+/*  Mobile Large query */
 @media (max-width: 425px) {
   /* Header */
   .header-flex {
@@ -1022,6 +1101,21 @@ footer {
     flex-direction: column;
   }
 
+  /* Shop */
+  .shop {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
+  }
+
+  .shop-flex {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shop-flex .shop-item .caption {
+    width: 80%;
+    top: 1rem;
+  }
+
   /* Footer section */
   footer {
     padding-left: var(--padding-mobile-Large);
@@ -1054,6 +1148,22 @@ footer {
 
   .cart-icon {
     right: 2.7rem;
+  }
+
+  /* Shop */
+  /* Shop */
+  .shop {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
+  }
+
+  .shop-flex {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-flex .shop-item .caption {
+    width: 50%;
+    top: 1rem;
   }
 
   /* Footer Section */
