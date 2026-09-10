@@ -382,10 +382,15 @@ header {
   border-radius: 0.5rem;
 }
 
+.best-sellers-item:hover img {
+  transform: rotate(-15deg);
+}
+
 .best-sellers-item img {
+  transition: all 0.2s linear;
   width: 21.5625rem;
   height: 12.875rem;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   border-radius: 0.5rem;
 }
 
@@ -611,11 +616,18 @@ footer {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0.5rem;
 }
+
 .shop-grid .shop-item img {
+  transition: all 0.2s linear;
   max-width: 21.5625rem;
   max-height: 21.5625rem;
   width: 100%;
 }
+
+.shop-grid .shop-item:hover img {
+  transform: rotate(-15deg);
+}
+
 .shop-grid .shop-item .caption {
   border-top: 1px solid var(--tertiary-color);
   border-right: 1px solid var(--tertiary-color);
