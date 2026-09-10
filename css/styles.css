@@ -717,108 +717,82 @@ footer {
   cursor: pointer;
 }
 
-/* Modal */
-.modal {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: 20000;
-}
-
-.modal-background {
-  background-color: rgba(0, 3, 15, 0.9);
+/* Product details page */
+/* Product details */
+.product {
   max-width: var(--laptop-large);
   margin: 0 auto;
-  height: 100%;
+  padding-left: var(--padding-large);
+  padding-right: var(--padding-large);
+  background-color: var(--tertiary-color);
 }
 
-.modal-content {
-  position: relative;
-  background-color: var(--dark-black);
-  max-width: 30.9375rem;
-  margin: 0 auto;
-  transform: translateY(5rem);
-}
-
-.modal-content .caption {
+.product-detail {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 0.5rem;
-  width: 8rem;
-  color: var(--tertiary-color);
-  position: absolute;
-  top: 2.75rem;
-  left: 0;
-  border-top: 1px solid var(--tertiary-color);
-  border-bottom: 1px solid var(--tertiary-color);
-  border-right: 1px solid var(--tertiary-color);
-  border-top-right-radius: 2rem;
-  border-bottom-right-radius: 2rem;
+  padding-top: 48px;
+  padding-bottom: 3rem;
+  gap: 6rem;
 }
 
-.modal-description {
-  background-color: var(--primary-color);
+.product-detail .left {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1.25rem;
 }
 
-.modal-description .colors {
-  display: flex;
-  gap: 1rem;
-}
-.modal-description .buttons {
-  display: flex;
-  gap: 2rem;
-}
-
-.modal-description .color-options {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.modal-description .colors div {
-  width: 1.875rem;
-  height: 1.875rem;
-  border-radius: 0.9375rem;
-  background-color: bisque;
-}
-
-.modal-description .size-input {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.modal-description .size-input input {
-  width: 4rem;
-}
-
-.modal-description .quantity {
+.product-detail .shoe-choice {
   background-color: var(--dark-black);
-  color: var(--tertiary-color);
+  max-width: 43.1875rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3px;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product-detail .colors {
+  display: flex;
+  gap: 1rem;
 }
 
-.modal-description .quantity span {
-  display: inline-block;
-  font-size: 2rem;
-  padding: 0 0.5rem;
-}
-
-.modal-description .add-to-cart {
+.product-detail .color {
   background-color: var(--dark-black);
-  border: none;
+  flex: 1;
+  max-width: 6.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.product-detail .right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product-detail .right select {
+  width: 100%;
+  max-width: 6.25rem;
+}
+.product-detail .right .quantity {
+  width: 100%;
+  max-width: 6.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail .right button {
+  width: 100%;
+  max-width: 6.25rem;
+  display: inline-block;
+  background-color: var(--dark-black);
   color: var(--tertiary-color);
-  font-size: 1.5rem;
-  padding: 0 1rem;
+  padding: 0.5rem;
+  border: none;
+  transition: all 0.3s linear;
+}
+.product-detail .right button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
 }
 
 /* Media Queries */
@@ -909,6 +883,16 @@ footer {
 
   .contact-us-flex .right .form-group {
     width: 90%;
+  }
+
+  /* Product details */
+  .product {
+    padding-left: var(--padding-tablet);
+    padding-right: var(--padding-tablet);
+  }
+
+  .product-detail {
+    gap: 3rem;
   }
 
   /* Footer Section */
@@ -1107,6 +1091,11 @@ footer {
 
   .contact-us-flex .right .form-group {
     width: 100%;
+  }
+
+  /* Product detals */
+  .product-detail {
+    gap: 2rem;
   }
 
   /* Footer Section */
@@ -1362,6 +1351,29 @@ footer {
     width: 100%;
   }
 
+  /* Product details */
+  .product {
+    padding-left: var(--padding-mobile-Large);
+    padding-right: var(--padding-mobile-Large);
+    padding-top: 2rem;
+  }
+
+  .product-detail {
+    position: relative;
+    flex-direction: column;
+    padding-top: 3rem;
+  }
+
+  .product-detail .right {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .product-detail .right .shoe-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   /* Footer section */
   footer {
     padding-left: var(--padding-mobile-Large);

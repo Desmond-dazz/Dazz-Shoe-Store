@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Dazz-Store</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-flex">
+        <p class="logo">Dazz-store</p>
+        <ul class="navigation-desktop">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+          <li><i class="fa-solid fa-cart-shopping"></i></li>
+        </ul>
+        <ul class="navigation-mobile">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+        <li class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></li>
+        <i class="fa-solid fa-bars burger-menu"></i>
+      </div>
+    </header>
+
+    <!-- Prodcut -->
+    <section class="product">
+      <div class="product-detail">
+        <div class="left">
+          <div class="shoe-choice">
+            <img
+              src="./images/shoes/Casaul/SoleDrop/SoleDrop 1.png"
+              alt="SoleDrop Shoe"
+            />
+          </div>
+
+          <div class="colors">
+            <div class="color">
+              <img
+                src="./images/shoes/Casaul/SoleDrop/SoleDrop 1.png"
+                alt="SoleDrop Shoe"
+              />
+            </div>
+            <div class="color">
+              <img
+                src="./images/shoes/Casaul/SoleDrop/SoleDrop 2.png"
+                alt="SoleDrop Shoe"
+              />
+            </div>
+            <div class="color">
+              <img
+                src="./images/shoes/Casaul/SoleDrop/SoleDrop 3.png"
+                alt="SoleDrop Shoe"
+              />
+            </div>
+            <div class="color">
+              <img
+                src="./images/shoes/Casaul/SoleDrop/SoleDrop 4.png"
+                alt="SoleDrop Shoe"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="shoe-info">
+            <h3 class="name">SoleDrop</h3>
+            <p class="price">R2 100</p>
+          </div>
+          <div class="size">
+            <label for="size"> Size </label>
+            <select id="size">
+              <option value="Select size">Select size</option>
+              <option value="0">0</option>
+              <option value="2">1</option>
+              <option value="3">2</option>
+              <option value="4">3</option>
+              <option value="5">4</option>
+              <option value="6">5</option>
+              <option value="7">6</option>
+              <option value="8">7</option>
+              <option value="9">8</option>
+              <option value="10">9</option>
+              <option value="11">10</option>
+              <option value="12">11</option>
+              <option value="13">12</option>
+            </select>
+          </div>
+          <div class="quantity">
+            <label for="quantity">Quantity</label>
+            <input min="0" max="12" type="number" name="" id="quality" />
+          </div>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-flex">
+        <p class="logo">Dazz-Store</p>
+        <div class="middle-section">
+          <div class="contact">
+            <h4>Contact</h4>
+            <p class="addres">
+              <i class="fa-solid fa-address-book"></i>Address : 142 Mandel Road,
+              John D Street, Jhb
+            </p>
+            <p class="phone">
+              <i class="fa-solid fa-phone"></i>Phone : 011 893 9090
+            </p>
+          </div>
+          <div class="follow-us">
+            <h4>Follow Us</h4>
+            <div class="socials">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <div class="right-section">
+          <h4>Secured Payment Gateways</h4>
+          <div class="methods">
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-paypal"></i>
+            <i class="fa-brands fa-bitcoin"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
