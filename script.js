@@ -84,6 +84,37 @@ if (queryString == "cloudl1-3") {
 
 // Sole Drop
 else if (queryString == "SoleDrop-1") {
+  shoeName.textContent = "SoleDrop";
+  shoePrice.textContent = "R2 100";
+  selectedImage.setAttribute(
+    "src",
+    "./images/shoes/Casaul/SoleDrop/SoleDrop 1.png",
+  );
+
+  colors.forEach((color) => {
+    if (color.className == "color-1") {
+      color.setAttribute(
+        "src",
+        "./images/shoes/Casaul/SoleDrop/SoleDrop 1.png",
+      );
+    } else if (color.className == "color-2") {
+      color.setAttribute(
+        "src",
+        "./images/shoes/Casaul/SoleDrop/SoleDrop 2.png",
+      );
+    } else if (color.className == "color-3") {
+      color.setAttribute(
+        "src",
+        "./images/shoes/Casaul/SoleDrop/SoleDrop 3.png",
+      );
+    } else if (color.className == "color-4") {
+      color.setAttribute(
+        "src",
+        "./images/shoes/Casaul/SoleDrop/SoleDrop 4.png",
+      );
+    }
+  });
+
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
