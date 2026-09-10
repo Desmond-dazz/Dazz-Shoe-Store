@@ -70,12 +70,61 @@ if (queryString == "cloudl1-3") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -118,12 +167,62 @@ else if (queryString == "SoleDrop-1") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -168,12 +267,62 @@ else if (queryString == "trail-slide-1") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -217,12 +366,59 @@ else if (queryString == "herigate-loafer-1") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -266,12 +462,59 @@ else if (queryString == "legacy-monk-3") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -315,12 +558,59 @@ else if (queryString == "urban-chukka-1") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -364,12 +654,59 @@ else if (queryString == "ascend-high-1") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -413,12 +750,59 @@ else if (queryString == "the-trail-4") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
@@ -447,12 +831,59 @@ else if (queryString == "drift-1") {
   colors.forEach((color) => {
     color.addEventListener("click", (e) => {
       if (e.target.className == "color-1") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-2") {
+      }
+      if (e.target.className == "color-2") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-3") {
+      }
+      if (e.target.className == "color-3") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
-      } else if (e.target.className == "color-4") {
+      }
+      if (e.target.className == "color-4") {
+        if (
+          e.target.getAttribute("src") !== selectedImage.getAttribute("src")
+        ) {
+          selectedImage.style.transition = "all 0s linear";
+          selectedImage.style.transform =
+            "translate(100%, -100%) rotate(90deg)";
+          setTimeout(() => {
+            selectedImage.style.transition = "all 0.5s linear";
+            selectedImage.style.transform = "translate(0, 0) rotate(0)";
+          }, 50);
+        }
         selectedImage.setAttribute("src", `${e.target.getAttribute("src")}`);
       }
     });
