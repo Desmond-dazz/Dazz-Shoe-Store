@@ -791,11 +791,41 @@ footer {
   width: 100%;
   max-width: 6.25rem;
 }
+
 .product-detail .right .quantity {
   width: 100%;
   max-width: 6.25rem;
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-detail .right .quantity div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.product-detail .right .quantity p {
+  font-weight: bold;
+}
+
+.product-detail .right .quantity div .amount {
+  font-size: 1.5rem;
+}
+
+.product-detail .right .quantity i {
+  transition: all 0.3s linear;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detail .right .quantity i:hover {
+  background-color: var(--dark-black);
+  color: var(--tertiary-color);
+  cursor: pointer;
 }
 
 .product-detail .right button {
