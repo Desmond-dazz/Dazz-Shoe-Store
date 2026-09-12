@@ -787,6 +787,11 @@ footer {
   gap: 1rem;
 }
 
+.product-detail .right label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .product-detail .right select {
   width: 100%;
   max-width: 6.25rem;
