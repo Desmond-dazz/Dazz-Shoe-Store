@@ -785,6 +785,11 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  min-width: 200px;
+}
+.product-detail .right .size {
+  display: flex;
+  flex-direction: column;
 }
 
 .product-detail .right label {
@@ -794,7 +799,8 @@ footer {
 
 .product-detail .right select {
   width: 100%;
-  max-width: 6.25rem;
+  max-width: 7rem;
+  font-size: 1.1rem;
 }
 
 .product-detail .right .quantity {
