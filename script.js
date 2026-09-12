@@ -4,6 +4,23 @@ let selectedImage = document.querySelector(".shoe-choice img");
 let colors = document.querySelectorAll(".color img");
 let shoeName = document.querySelector(".shoe-info h3");
 let shoePrice = document.querySelector(".shoe-info p");
+let subtract = document.querySelector(".fa-minus");
+let quantity = document.querySelector(".amount");
+let add = document.querySelector(".fa-plus");
+let quantityCount = 1;
+
+// Shoe quantity
+add.addEventListener("click", (e) => {
+  quantityCount++;
+  quantity.textContent = `${quantityCount}`;
+});
+
+subtract.addEventListener("click", (e) => {
+  if (quantityCount !== 1) {
+    quantityCount--;
+    quantity.textContent = `${quantityCount}`;
+  }
+});
 
 // Get query string
 let queryString = decodeURIComponent(
